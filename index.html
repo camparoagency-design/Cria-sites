@@ -4,202 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Camparo Digital Agency</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Inter', sans-serif;
-    }
 
-    body {
-      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-      color: #fff;
-      line-height: 1.6;
-    }
-
-    .container {
-      max-width: 1100px;
-      margin: auto;
-      padding: 40px 20px;
-    }
-
-    header {
-      text-align: center;
-      padding: 80px 20px;
-    }
-
-    header h1 {
-      font-size: 42px;
-      font-weight: 700;
-      letter-spacing: 2px;
-    }
-
-    header p {
-      font-size: 18px;
-      color: #d1d1d1;
-      margin-top: 15px;
-      max-width: 700px;
-      margin-inline: auto;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 16px 36px;
-      background: linear-gradient(90deg, #25D366, #1EBE5D);
-      color: #000;
-      border-radius: 40px;
-      text-decoration: none;
-      font-weight: 600;
-      font-size: 16px;
-      transition: 0.3s;
-    }
-
-    .btn:hover {
-      transform: scale(1.05);
-    }
-
-    section {
-      margin-top: 80px;
-    }
-
-    h2 {
-      text-align: center;
-      font-size: 32px;
-      margin-bottom: 40px;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 25px;
-    }
-
-    .card {
-      background: rgba(255,255,255,0.08);
-      backdrop-filter: blur(12px);
-      border-radius: 18px;
-      padding: 30px;
-      transition: 0.3s;
-    }
-
-    .card:hover {
-      transform: translateY(-8px);
-    }
-
-    .card h3 {
-      font-size: 20px;
-      margin-bottom: 10px;
-    }
-
-    .card p {
-      color: #dcdcdc;
-      font-size: 15px;
-    }
-
-    .cta {
-      margin-top: 100px;
-      text-align: center;
-      background: linear-gradient(135deg, #ff6a00, #ff2f92);
-      padding: 70px 20px;
-      border-radius: 30px;
-    }
-
-    .cta h2 {
-      margin-bottom: 15px;
-      font-size: 34px;
-    }
-
-    .cta p {
-      font-size: 18px;
-      margin-bottom: 30px;
-    }
-
-    footer {
-      text-align: center;
-      margin: 60px 0 20px;
-      font-size: 14px;
-      color: #aaa;
-    }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 32px;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="estilo.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <header>
-    <h1>CAMPARO DIGITAL AGENCY</h1>
+<div class="overlay">
+
+  <section class="hero">
+    <h1>CAMPARO DIGITAL<br>AGENCY</h1>
+
     <p>
-      Criamos sites modernos, rápidos e estratégicos para negócios
-      que querem parecer profissionais e vender todos os dias.
+      Criamos experiências digitais inteligentes, modernas e estratégicas
+      para marcas que querem se destacar no futuro.
     </p>
-    <a class="btn" href="https://wa.me/5551996418069" target="_blank">
+
+    <a class="btn" href="https://wa.me/5599999999999" target="_blank">
       Falar no WhatsApp
     </a>
-  </header>
+  </section>
 
-  <section class="container">
+  <section class="services">
     <h2>O que fazemos</h2>
-    <div class="grid">
+
+    <div class="cards">
       <div class="card">
         <h3>Sites Profissionais</h3>
-        <p>
-          Design moderno e pensado para passar confiança desde o primeiro clique.
-        </p>
+        <p>Design moderno, rápido e focado em conversão.</p>
       </div>
+
       <div class="card">
         <h3>Alta Performance</h3>
-        <p>
-          Sites leves, rápidos e otimizados para celular.
-        </p>
+        <p>Sites leves, responsivos e otimizados para Google.</p>
       </div>
+
       <div class="card">
-        <h3>Foco em Conversão</h3>
-        <p>
-          Estrutura criada para transformar visitantes em clientes.
-        </p>
+        <h3>Identidade Digital</h3>
+        <p>Visual tecnológico que passa autoridade e confiança.</p>
       </div>
     </div>
   </section>
 
-  <section class="container">
-    <h2>Para quem é</h2>
-    <div class="grid">
-      <div class="card">
-        <p>Salões de beleza e estética</p>
-      </div>
-      <div class="card">
-        <p>Lojas, mercados e comércios locais</p>
-      </div>
-      <div class="card">
-        <p>Autônomos e prestadores de serviço</p>
-      </div>
-      <div class="card">
-        <p>Negócios que querem crescer</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta">
-    <h2>Seu negócio precisa de um site que funcione</h2>
-    <p>
-      Chega de depender só de redes sociais.  
-      Tenha um site profissional trabalhando por você 24h por dia.
-    </p>
-    <a class="btn" href="https://wa.me/5551996418069" target="_blank">
-      Solicitar orçamento
-    </a>
-  </section>
-
-  <footer>
-    © 2026 Camparo Digital Agency • Criação de Sites Profissionais
-  </footer>
+</div>
 
 </body>
 </html>
